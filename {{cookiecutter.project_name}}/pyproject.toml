@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = "A functional Python project template"
+authors = ["{{cookiecutter.author_name}}"]
+
+[tool.poetry.dependencies]
+python = "^{{cookiecutter.python_version}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+mkdocs = "^1.4"
+mkdocs-material = "^9.0"
+mkdocstrings = {extras = ["python"], version = "^0.19"}
